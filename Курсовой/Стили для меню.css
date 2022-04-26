@@ -1,3 +1,45 @@
+@media (max-width: 4270px) {
+  html {
+    font-size: 53.375px;
+  }
+}
+
+@media (max-width: 2560px) {
+  html {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1070px) {
+  html {
+    font-size: 13.375px;
+  }
+}
+
+@media (max-width: 860px) {
+  html {
+    font-size: 10.75px;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 7.5px;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 4px;
+  }
+}
+
 body {
   background-blend-mode: color-dodge;
   background: #111213 no-repeat center fixed;
@@ -43,6 +85,10 @@ body header nav {
   top: 0;
   right: 0;
   left: 0;
+}
+
+body header nav a {
+  cursor: pointer;
 }
 
 body header nav ul {

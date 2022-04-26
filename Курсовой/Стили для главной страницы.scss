@@ -2,13 +2,13 @@ $primary-color: #111213;
 $secondary-color: #272727;
 @mixin primary-font()
 {
-    font-size: /*5.375em*/ 2.25em;
+    font-size: 2.25em;
     color: rgb(197, 195, 192);
     font-family: 'Times New Roman', 'Times', serif;
 }
 @mixin secondary-font()
 {
-    font-size: /*3.75em*/ 1.25em;
+    font-size: 1.25em;
     color: #c5c3c0;
     font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
@@ -42,6 +42,55 @@ $secondary-color: #272727;
     a:hover
     {
         text-shadow: -1px -1px #111213;    
+    }
+}
+@media (max-width: 4270px)
+{
+    html
+    {
+        font-size: 53.375px;
+    }
+}
+@media (max-width: 2560px)
+{
+    html
+    {
+        font-size: 32px;
+    }
+}
+@media (max-width: 1600px)
+{
+    html
+    {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1070px)
+{
+    html
+    {
+        font-size: 13.375px;
+    }
+}
+@media (max-width: 860px)
+{
+    html
+    {
+        font-size: 10.75px;
+    }
+}
+@media (max-width: 600px)
+{
+    html
+    {
+        font-size: 7.5px;
+    }
+}
+@media (max-width: 320px)
+{
+    html
+    {
+        font-size: 4px;
     }
 }
 body
