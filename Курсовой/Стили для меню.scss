@@ -2,13 +2,13 @@ $primary-color: #111213;
 $secondary-color: #272727;
 @mixin primary-font()
 {
-    font-size: /*5.375em*/ 2.25em;
+    font-size: 2.25em;
     color: rgb(197, 195, 192);
     font-family: 'Times New Roman', 'Times', serif;
 }
 @mixin secondary-font()
 {
-    font-size: /*3.75em*/ 1.25em;
+    font-size: 1.25em;
     color: #c5c3c0;
     font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
@@ -96,7 +96,7 @@ $secondary-color: #272727;
 body
 {
     @include background-image();
-    background-image: url("background.png");
+    background-image: url("background.jpg");
     background-size: contain;
     margin: 0;
     @include href();
@@ -119,13 +119,9 @@ body
             display: inline;
             text-align: center;
             @include absolute();
-            a
-            {
-                cursor: pointer;
-            }
             ul
             {
-                display: flex;
+                display: none;
                 flex-direction: column;
                 align-items: center;
                 list-style-type: none;
@@ -133,11 +129,27 @@ body
                 margin: 0;
                 li
                 {
-                    width: 16%;
+                    width: 22%;
                     text-align: center;
                     background: $secondary-color;
                 }
             }
+        }
+        input
+        {
+            display: none;
+        }
+        label
+        {
+            cursor: pointer;
+        }
+        label:active
+        {
+            color: #111213;
+        }
+        input.toggleMenu:checked ~ ul
+        {
+            display: flex;
         }
     }
     main
@@ -157,7 +169,7 @@ body
             padding-left: 1%;
             img
             {
-                width: 80%;
+                width: 100%;
             }
             figcaption
             {

@@ -96,7 +96,7 @@ $secondary-color: #272727;
 body
 {
     @include background-image();
-    background-image: url("background.png");
+    background-image: url("background.jpg");
     background-size: contain;
     margin: 0;
     @include href();

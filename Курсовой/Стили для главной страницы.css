@@ -43,7 +43,7 @@
 body {
   background-blend-mode: color-dodge;
   background: #111213 no-repeat center fixed;
-  background-image: url("background.png");
+  background-image: url("background.jpg");
   background-size: contain;
   margin: 0;
 }
