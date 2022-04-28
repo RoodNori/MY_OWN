@@ -1,45 +1,3 @@
-@media (max-width: 4270px) {
-  html {
-    font-size: 53.375px;
-  }
-}
-
-@media (max-width: 2560px) {
-  html {
-    font-size: 32px;
-  }
-}
-
-@media (max-width: 1600px) {
-  html {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 1070px) {
-  html {
-    font-size: 13.375px;
-  }
-}
-
-@media (max-width: 860px) {
-  html {
-    font-size: 10.75px;
-  }
-}
-
-@media (max-width: 600px) {
-  html {
-    font-size: 7.5px;
-  }
-}
-
-@media (max-width: 320px) {
-  html {
-    font-size: 4px;
-  }
-}
-
 body {
   background-blend-mode: color-dodge;
   background: #111213 no-repeat center fixed;
@@ -62,13 +20,17 @@ body a:hover {
 
 body header {
   width: 100%;
-  height: 7%;
-  font-size: 2.25em;
+  height: 5vw;
+  font-size: 4vw;
   color: #c5c3c0;
   font-family: 'Times New Roman', 'Times', serif;
   position: fixed;
   top: 0;
   background: #272727;
+}
+
+body header label {
+  margin-left: 25%;
 }
 
 body header img {
@@ -78,16 +40,7 @@ body header img {
   margin: 0 1% 0 2%;
 }
 
-body header nav {
-  display: inline;
-  text-align: center;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-}
-
-body header nav ul {
+body header ul {
   display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -101,8 +54,8 @@ body header nav ul {
   margin: 0;
 }
 
-body header nav ul li {
-  width: 22%;
+body header ul li {
+  width: 25%;
   text-align: center;
   background: #272727;
 }
@@ -119,7 +72,7 @@ body header label:active {
   color: #111213;
 }
 
-body header input.toggleMenu:checked ~ ul {
+body header input:checked ~ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -127,7 +80,7 @@ body header input.toggleMenu:checked ~ ul {
 
 body main {
   margin: 6% 0 0 0;
-  font-size: 1.25em;
+  font-size: 2vw;
   color: #c5c3c0;
   font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   display: -webkit-box;
@@ -163,7 +116,7 @@ body main figure figcaption {
 body footer {
   text-align: center;
   width: 100%;
-  height: 7%;
+  height: 5vw;
   background: #272727;
 }
 
