@@ -1,0 +1,112 @@
+$primary-color: #111213;
+$secondary-color: #272727;
+@mixin primary-font()
+{
+    font-size: 4vw;
+    color: #c5c3c0;
+    font-family: 'Times New Roman', 'Times', serif;
+}
+@mixin secondary-font()
+{
+    font-size: 2vw;
+    color: #c5c3c0;
+    font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+@mixin fixed()
+{
+    position: fixed;
+    top: 0;
+}
+@mixin background-image()
+{
+    background-blend-mode: color-dodge;
+    background: $primary-color no-repeat center fixed;
+}
+@mixin href()
+{
+    a
+    {
+        text-decoration: unset;
+        color: #c5c3c0;
+    }
+    a:hover
+    {
+        color: #111213;
+    }
+}
+body
+{
+    @include background-image();
+    background-image: url("background.jpg");
+    background-size: contain;
+    margin: 0;
+    @include href();
+    header
+    {
+        width: 100%;
+        height: 5vw;
+        @include primary-font();
+        @include fixed();
+        background: $secondary-color;
+        #blm 
+        {
+            margin-left: 24%;
+            font-size: 2vw;
+        }
+        img
+        {
+            float: left;
+            width: 4.5%;
+            max-width: 4.5%;
+            margin: 0 1% 0 2%;
+        }
+    }
+    main
+    {
+        margin: 6% 0 0 0;
+        @include secondary-font();
+        h2
+        {
+            text-align: center;
+        }
+        p
+        {
+            box-sizing: border-box;
+            padding-left: 2%;
+            padding-right: 1%;
+        }
+        figure
+        {
+            text-align: center;
+            img
+            {
+                width: 50%;
+                max-width: 50%;
+            }
+        }
+    }
+    footer
+    {
+        text-align: center;
+        width: 100%;
+        height: 5vw;
+        background: $secondary-color;
+        img
+        {
+            width: 4.5%;
+            max-width: 4.5%;
+        }
+        #github
+        {
+           display: inline;
+        }
+        #vk
+        {
+           margin: 0 20% 0 0;
+        }
+        #stopgame
+        {
+            margin: 0 0 0 20%;
+        }
+    }
+}
