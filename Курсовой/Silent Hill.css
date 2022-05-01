@@ -48,11 +48,18 @@ body main {
 
 body aside {
   float: right;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 30%;
   font-size: 2vw;
   color: #c5c3c0;
   font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-  text-align: center;
+  padding-right: 1%;
+}
+
+body aside img {
+  width: 100%;
+  max-width: 100%;
 }
 
 body aside span {

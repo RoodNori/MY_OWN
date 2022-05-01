@@ -52,8 +52,28 @@ body main h2 {
 body main p {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 2%;
-  padding-right: 1%;
+  padding-left: 3%;
+  padding-right: 2%;
+}
+
+body main div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body main div figure {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40%;
+          flex: 1 1 40%;
+}
+
+body main div figure img {
+  width: 100%;
+  max-width: 100%;
 }
 
 body main figure {

@@ -70,9 +70,15 @@ body
     aside
     {
         float: right;
+        box-sizing: border-box;
         width: 30%;
         @include secondary-font();
-        text-align: center;
+        padding-right: 1%;
+        img
+        {
+            width: 100%;
+            max-width: 100%;
+        }
         span
         {
             display: block;
