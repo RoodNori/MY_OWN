@@ -37,7 +37,7 @@ $secondary-color: #272727;
 body
 {
     @include background-image();
-    background-image: url("background.jpg");
+    background-image: url("Логотип/background1.jpg");
     background-size: contain;
     margin: 0;
     @include href();
@@ -66,6 +66,25 @@ body
         width: 70%;
         margin: 6% 0 0 0;
         @include secondary-font();
+        h2
+        {
+            text-align: center;
+        }
+        p
+        {
+            box-sizing: border-box;
+            padding-left: 1%;
+            padding-right: 2%;
+        }
+        figure
+        {
+            text-align: center;
+            img
+            {
+                width: 50%;
+                max-width: 50%;
+            }
+        }
     }
     aside
     {
@@ -73,7 +92,7 @@ body
         box-sizing: border-box;
         width: 30%;
         @include secondary-font();
-        padding-right: 1%;
+        padding-right: 0.5%;
         img
         {
             width: 100%;

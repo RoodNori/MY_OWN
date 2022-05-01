@@ -1,7 +1,8 @@
+@charset "UTF-8";
 body {
   background-blend-mode: color-dodge;
   background: #111213 no-repeat center fixed;
-  background-image: url("background.jpg");
+  background-image: url("Логотип/background1.jpg");
   background-size: contain;
   margin: 0;
 }
@@ -46,6 +47,26 @@ body main {
   font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
+body main h2 {
+  text-align: center;
+}
+
+body main p {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 1%;
+  padding-right: 2%;
+}
+
+body main figure {
+  text-align: center;
+}
+
+body main figure img {
+  width: 50%;
+  max-width: 50%;
+}
+
 body aside {
   float: right;
   -webkit-box-sizing: border-box;
@@ -54,7 +75,7 @@ body aside {
   font-size: 2vw;
   color: #c5c3c0;
   font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-  padding-right: 1%;
+  padding-right: 0.5%;
 }
 
 body aside img {
