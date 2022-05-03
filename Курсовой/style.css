@@ -5,7 +5,7 @@ main article{float:left;width:20%;}
 main article img{width:100%;max-width:100%;}
 main .slider-prev-next-control{display:inline-block;overflow:hidden;width:70%;position:relative;top:-18vw;}
 main .slider-prev-next-control label{opacity:0.5;width:8%;height:4vw;border-radius:2vw;background:#c5c3c0;}
-main .slider-dot-control{margin-bottom:-50px;position:relative;top:-7vw;text-align:center;}
+main .slider-dot-control{margin-bottom:-60px;position:relative;top:-7vw;text-align:center;}
 main .slider-dot-control label{cursor:pointer;display:inline-block;width:1.5%;height:1vw;border-radius:1vw;background:#c5c3c0;}
 main .slider-wrapper{display:inline-block;overflow:hidden;width:70%;border-radius:10px;}
 main .slider-wrapper .inner{-webkit-transition:all .8s;-moz-transition:all .8s;transition:all .8s}
