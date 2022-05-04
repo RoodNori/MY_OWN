@@ -24,6 +24,7 @@ body header {
   font-family: 'Times New Roman', 'Times', serif;
   position: fixed;
   top: 0;
+  z-index: 1;
   background: #272727;
 }
 
@@ -37,6 +38,28 @@ body header img {
   width: 4.5%;
   max-width: 4.5%;
   margin: 0 1% 0 2%;
+}
+
+body aside {
+  float: right;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 30%;
+  font-size: 2vw;
+  color: #c5c3c0;
+  font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  padding-right: 0.5%;
+}
+
+body aside img {
+  width: 100%;
+  max-width: 100%;
+}
+
+body aside span {
+  display: block;
+  text-align: left;
+  line-height: 4vw;
 }
 
 body main {
@@ -65,28 +88,6 @@ body main figure {
 body main figure img {
   width: 50%;
   max-width: 50%;
-}
-
-body aside {
-  float: right;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 30%;
-  font-size: 2vw;
-  color: #c5c3c0;
-  font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-  padding-right: 0.5%;
-}
-
-body aside img {
-  width: 100%;
-  max-width: 100%;
-}
-
-body aside span {
-  display: block;
-  text-align: left;
-  line-height: 4vw;
 }
 
 body footer {

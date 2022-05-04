@@ -37,7 +37,7 @@ $secondary-color: #272727;
 body
 {
     @include background-image();
-    background-image: url("background.jpg");
+    background-image: url("Логотип/background.jpg");
     background-size: contain;
     margin: 0;
     @include href();
@@ -98,21 +98,14 @@ body
         @include secondary-font();
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
         figure
         {
-            flex: 1 0 33%;
+            flex: 0 0 40%;
             text-align: center;
-            margin: 0;
-            box-sizing: border-box;
-            padding-right: 1%;
-            padding-left: 1%;
             img
             {
                 width: 100%;
-            }
-            figcaption
-            {
-                margin-bottom: 20;
             }
         }  
     }

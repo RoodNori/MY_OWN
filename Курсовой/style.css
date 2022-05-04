@@ -15,6 +15,9 @@ main #slide1:checked ~ .slider-dot-control label:nth-child(1),main #slide2:check
 main #slide4:checked ~ .slider-prev-next-control label:nth-child(2),main #slide5:checked ~ .slider-prev-next-control label:nth-child(3),main #slide6:checked ~ .slider-prev-next-control label:nth-child(4){float:right}
 main #slide5:checked ~ .slider-prev-next-control label:nth-child(1),main #slide6:checked ~ .slider-prev-next-control label:nth-child(2),main #slide7:checked ~ .slider-prev-next-control label:nth-child(3){float:left}
 main #slide4:checked ~ .slider-dot-control label:nth-child(1),main #slide5:checked ~ .slider-dot-control label:nth-child(2),main #slide6:checked ~ .slider-dot-control label:nth-child(3),main #slide7:checked ~ .slider-dot-control label:nth-child(4){background:#111213}
+main #slide8:checked ~ .slider-prev-next-control label:nth-child(2),main #slide9:checked ~ .slider-prev-next-control label:nth-child(3),main #slide10:checked ~ .slider-prev-next-control label:nth-child(4){float:right}
+main #slide9:checked ~ .slider-prev-next-control label:nth-child(1),main #slide10:checked ~ .slider-prev-next-control label:nth-child(2),main #slide11:checked ~ .slider-prev-next-control label:nth-child(3){float:left}
+main #slide8:checked ~ .slider-dot-control label:nth-child(1),main #slide9:checked ~ .slider-dot-control label:nth-child(2),main #slide10:checked ~ .slider-dot-control label:nth-child(3),main #slide11:checked ~ .slider-dot-control label:nth-child(4){background:#111213}
 main #slide1:checked ~ .slider-wrapper .inner{margin-left:0}
 main #slide2:checked ~ .slider-wrapper .inner{margin-left:-100%}
 main #slide3:checked ~ .slider-wrapper .inner{margin-left:-200%}
@@ -22,3 +25,7 @@ main #slide4:checked ~ .slider-wrapper .inner{margin-left:0}
 main #slide5:checked ~ .slider-wrapper .inner{margin-left:-100%}
 main #slide6:checked ~ .slider-wrapper .inner{margin-left:-200%}
 main #slide7:checked ~ .slider-wrapper .inner{margin-left:-300%}
+main #slide8:checked ~ .slider-wrapper .inner{margin-left:0}
+main #slide9:checked ~ .slider-wrapper .inner{margin-left:-100%}
+main #slide10:checked ~ .slider-wrapper .inner{margin-left:-200%}
+main #slide11:checked ~ .slider-wrapper .inner{margin-left:-300%}
