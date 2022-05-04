@@ -91,26 +91,25 @@ body main figure img {
 }
 
 body footer {
-  text-align: center;
+  display: -ms-grid;
+  display: grid;
   width: 100%;
   height: 5vw;
   background: #272727;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
 }
 
 body footer img {
-  width: 4.5%;
-  max-width: 4.5%;
-}
-
-body footer #github {
-  display: inline;
+  width: 14%;
+  max-width: 14%;
 }
 
 body footer #vk {
-  margin: 0 20% 0 0;
+  text-align: right;
 }
 
-body footer #stopgame {
-  margin: 0 0 0 20%;
+body footer #github {
+  text-align: center;
 }
 /*# sourceMappingURL=Silent Hill.css.map */
