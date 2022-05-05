@@ -24,6 +24,12 @@ main #slide12:checked ~ .slider-dot-control label:nth-child(1),main #slide13:che
 main #slide16:checked ~ .slider-prev-next-control label:nth-child(2),main #slide17:checked ~ .slider-prev-next-control label:nth-child(3),main #slide18:checked ~ .slider-prev-next-control label:nth-child(4),main #slide19:checked ~ .slider-prev-next-control label:nth-child(5){float:right}
 main #slide17:checked ~ .slider-prev-next-control label:nth-child(1),main #slide18:checked ~ .slider-prev-next-control label:nth-child(2),main #slide19:checked ~ .slider-prev-next-control label:nth-child(3),main #slide20:checked ~ .slider-prev-next-control label:nth-child(4){float:left}
 main #slide16:checked ~ .slider-dot-control label:nth-child(1),main #slide17:checked ~ .slider-dot-control label:nth-child(2),main #slide18:checked ~ .slider-dot-control label:nth-child(3),main #slide19:checked ~ .slider-dot-control label:nth-child(4),main #slide20:checked ~ .slider-dot-control label:nth-child(5){opacity: 0.5}
+main #slide21:checked ~ .slider-prev-next-control label:nth-child(2),main #slide22:checked ~ .slider-prev-next-control label:nth-child(3),main #slide23:checked ~ .slider-prev-next-control label:nth-child(4){float:right}
+main #slide22:checked ~ .slider-prev-next-control label:nth-child(1),main #slide23:checked ~ .slider-prev-next-control label:nth-child(2),main #slide24:checked ~ .slider-prev-next-control label:nth-child(3){float:left}
+main #slide21:checked ~ .slider-dot-control label:nth-child(1),main #slide22:checked ~ .slider-dot-control label:nth-child(2),main #slide23:checked ~ .slider-dot-control label:nth-child(3),main #slide24:checked ~ .slider-dot-control label:nth-child(4){opacity: 0.5}
+main #slide25:checked ~ .slider-prev-next-control label:nth-child(2),main #slide26:checked ~ .slider-prev-next-control label:nth-child(3),main #slide27:checked ~ .slider-prev-next-control label:nth-child(4){float:right}
+main #slide26:checked ~ .slider-prev-next-control label:nth-child(1),main #slide27:checked ~ .slider-prev-next-control label:nth-child(2),main #slide28:checked ~ .slider-prev-next-control label:nth-child(3){float:left}
+main #slide25:checked ~ .slider-dot-control label:nth-child(1),main #slide26:checked ~ .slider-dot-control label:nth-child(2),main #slide27:checked ~ .slider-dot-control label:nth-child(3),main #slide28:checked ~ .slider-dot-control label:nth-child(4){opacity: 0.5}
 main #slide1:checked ~ .slider-wrapper .inner{margin-left:0}
 main #slide2:checked ~ .slider-wrapper .inner{margin-left:-100%}
 main #slide3:checked ~ .slider-wrapper .inner{margin-left:-200%}
@@ -44,3 +50,11 @@ main #slide17:checked ~ .slider-wrapper .inner{margin-left:-100%}
 main #slide18:checked ~ .slider-wrapper .inner{margin-left:-200%}
 main #slide19:checked ~ .slider-wrapper .inner{margin-left:-300%}
 main #slide20:checked ~ .slider-wrapper .inner{margin-left:-400%}
+main #slide21:checked ~ .slider-wrapper .inner{margin-left:0}
+main #slide22:checked ~ .slider-wrapper .inner{margin-left:-100%}
+main #slide23:checked ~ .slider-wrapper .inner{margin-left:-200%}
+main #slide24:checked ~ .slider-wrapper .inner{margin-left:-300%}
+main #slide25:checked ~ .slider-wrapper .inner{margin-left:0}
+main #slide26:checked ~ .slider-wrapper .inner{margin-left:-100%}
+main #slide27:checked ~ .slider-wrapper .inner{margin-left:-200%}
+main #slide28:checked ~ .slider-wrapper .inner{margin-left:-300%}
