@@ -20,7 +20,9 @@ main
     #slide23:checked ~ .slider-prev-next-control label:nth-child(4),
     #slide25:checked ~ .slider-prev-next-control label:nth-child(2),
     #slide26:checked ~ .slider-prev-next-control label:nth-child(3),
-    #slide27:checked ~ .slider-prev-next-control label:nth-child(4)
+    #slide27:checked ~ .slider-prev-next-control label:nth-child(4),
+    #slide29:checked ~ .slider-prev-next-control label:nth-child(2),
+    #slide30:checked ~ .slider-prev-next-control label:nth-child(3)
     {
         float: right;
     }
@@ -44,7 +46,9 @@ main
     #slide24:checked ~ .slider-prev-next-control label:nth-child(3),
     #slide26:checked ~ .slider-prev-next-control label:nth-child(1),
     #slide27:checked ~ .slider-prev-next-control label:nth-child(2),
-    #slide28:checked ~ .slider-prev-next-control label:nth-child(3)
+    #slide28:checked ~ .slider-prev-next-control label:nth-child(3),
+    #slide30:checked ~ .slider-prev-next-control label:nth-child(1),
+    #slide31:checked ~ .slider-prev-next-control label:nth-child(2)
     {
         float: left;
     }
@@ -75,7 +79,10 @@ main
     #slide25:checked ~ .slider-dot-control label:nth-child(1),
     #slide26:checked ~ .slider-dot-control label:nth-child(2),
     #slide27:checked ~ .slider-dot-control label:nth-child(3),
-    #slide28:checked ~ .slider-dot-control label:nth-child(4)
+    #slide28:checked ~ .slider-dot-control label:nth-child(4),
+    #slide29:checked ~ .slider-dot-control label:nth-child(1),
+    #slide30:checked ~ .slider-dot-control label:nth-child(2),
+    #slide31:checked ~ .slider-dot-control label:nth-child(3)
     {
         opacity: 0.5;
     }
@@ -85,7 +92,8 @@ main
     #slide12:checked ~ .slider-wrapper .inner,
     #slide16:checked ~ .slider-wrapper .inner,
     #slide21:checked ~ .slider-wrapper .inner,
-    #slide25:checked ~ .slider-wrapper .inner
+    #slide25:checked ~ .slider-wrapper .inner,
+    #slide29:checked ~ .slider-wrapper .inner
     {
         margin-left: 0;
     }
@@ -95,7 +103,8 @@ main
     #slide13:checked ~ .slider-wrapper .inner,
     #slide17:checked ~ .slider-wrapper .inner,
     #slide22:checked ~ .slider-wrapper .inner,
-    #slide26:checked ~ .slider-wrapper .inner
+    #slide26:checked ~ .slider-wrapper .inner,
+    #slide30:checked ~ .slider-wrapper .inner
     {
         margin-left: -100%;
     }
@@ -105,7 +114,8 @@ main
     #slide14:checked ~ .slider-wrapper .inner,
     #slide18:checked ~ .slider-wrapper .inner,
     #slide23:checked ~ .slider-wrapper .inner,
-    #slide27:checked ~ .slider-wrapper .inner
+    #slide27:checked ~ .slider-wrapper .inner,
+    #slide31:checked ~ .slider-wrapper .inner
     {
         margin-left: -200%;
     }
