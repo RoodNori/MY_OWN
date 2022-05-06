@@ -28,14 +28,14 @@ body header {
 }
 
 body header #blm {
-  margin-left: 24%;
+  margin-left: 25%;
   font-size: 2vw;
 }
 
 body header img {
   float: left;
-  width: 4.5%;
-  max-width: 4.5%;
+  width: 4.8%;
+  max-width: 4.8%;
   margin: 0 1% 0 2%;
 }
 
@@ -89,8 +89,8 @@ body footer {
 }
 
 body footer img {
-  width: 14%;
-  max-width: 14%;
+  width: 15%;
+  max-width: 15%;
 }
 
 body footer #vk {
