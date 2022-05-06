@@ -1,0 +1,125 @@
+main
+{
+    #slide1:checked ~ .slider-prev-next-control label:nth-child(2),
+    #slide2:checked ~ .slider-prev-next-control label:nth-child(3),
+    #slide4:checked ~ .slider-prev-next-control label:nth-child(2),
+    #slide5:checked ~ .slider-prev-next-control label:nth-child(3),
+    #slide6:checked ~ .slider-prev-next-control label:nth-child(4),
+    #slide8:checked ~ .slider-prev-next-control label:nth-child(2),
+    #slide9:checked ~ .slider-prev-next-control label:nth-child(3),
+    #slide10:checked ~ .slider-prev-next-control label:nth-child(4),
+    #slide12:checked ~ .slider-prev-next-control label:nth-child(2),
+    #slide13:checked ~ .slider-prev-next-control label:nth-child(3),
+    #slide14:checked ~ .slider-prev-next-control label:nth-child(4),
+    #slide16:checked ~ .slider-prev-next-control label:nth-child(2),
+    #slide17:checked ~ .slider-prev-next-control label:nth-child(3),
+    #slide18:checked ~ .slider-prev-next-control label:nth-child(4),
+    #slide19:checked ~ .slider-prev-next-control label:nth-child(5),
+    #slide21:checked ~ .slider-prev-next-control label:nth-child(2),
+    #slide22:checked ~ .slider-prev-next-control label:nth-child(3),
+    #slide23:checked ~ .slider-prev-next-control label:nth-child(4),
+    #slide25:checked ~ .slider-prev-next-control label:nth-child(2),
+    #slide26:checked ~ .slider-prev-next-control label:nth-child(3),
+    #slide27:checked ~ .slider-prev-next-control label:nth-child(4)
+    {
+        float: right;
+    }
+    #slide2:checked ~ .slider-prev-next-control label:nth-child(1),
+    #slide3:checked ~ .slider-prev-next-control label:nth-child(2),
+    #slide5:checked ~ .slider-prev-next-control label:nth-child(1),
+    #slide6:checked ~ .slider-prev-next-control label:nth-child(2),
+    #slide7:checked ~ .slider-prev-next-control label:nth-child(3),
+    #slide9:checked ~ .slider-prev-next-control label:nth-child(1),
+    #slide10:checked ~ .slider-prev-next-control label:nth-child(2),
+    #slide11:checked ~ .slider-prev-next-control label:nth-child(3),
+    #slide13:checked ~ .slider-prev-next-control label:nth-child(1),
+    #slide14:checked ~ .slider-prev-next-control label:nth-child(2),
+    #slide15:checked ~ .slider-prev-next-control label:nth-child(3),
+    #slide17:checked ~ .slider-prev-next-control label:nth-child(1),
+    #slide18:checked ~ .slider-prev-next-control label:nth-child(2),
+    #slide19:checked ~ .slider-prev-next-control label:nth-child(3),
+    #slide20:checked ~ .slider-prev-next-control label:nth-child(4),
+    #slide22:checked ~ .slider-prev-next-control label:nth-child(1),
+    #slide23:checked ~ .slider-prev-next-control label:nth-child(2),
+    #slide24:checked ~ .slider-prev-next-control label:nth-child(3),
+    #slide26:checked ~ .slider-prev-next-control label:nth-child(1),
+    #slide27:checked ~ .slider-prev-next-control label:nth-child(2),
+    #slide28:checked ~ .slider-prev-next-control label:nth-child(3)
+    {
+        float: left;
+    }
+    #slide1:checked ~ .slider-dot-control label:nth-child(1),
+    #slide2:checked ~ .slider-dot-control label:nth-child(2),
+    #slide3:checked ~ .slider-dot-control label:nth-child(3),
+    #slide4:checked ~ .slider-dot-control label:nth-child(1),
+    #slide5:checked ~ .slider-dot-control label:nth-child(2),
+    #slide6:checked ~ .slider-dot-control label:nth-child(3),
+    #slide7:checked ~ .slider-dot-control label:nth-child(4),
+    #slide8:checked ~ .slider-dot-control label:nth-child(1),
+    #slide9:checked ~ .slider-dot-control label:nth-child(2),
+    #slide10:checked ~ .slider-dot-control label:nth-child(3),
+    #slide11:checked ~ .slider-dot-control label:nth-child(4),
+    #slide12:checked ~ .slider-dot-control label:nth-child(1),
+    #slide13:checked ~ .slider-dot-control label:nth-child(2),
+    #slide14:checked ~ .slider-dot-control label:nth-child(3),
+    #slide15:checked ~ .slider-dot-control label:nth-child(4),
+    #slide16:checked ~ .slider-dot-control label:nth-child(1),
+    #slide17:checked ~ .slider-dot-control label:nth-child(2),
+    #slide18:checked ~ .slider-dot-control label:nth-child(3),
+    #slide19:checked ~ .slider-dot-control label:nth-child(4),
+    #slide20:checked ~ .slider-dot-control label:nth-child(5),
+    #slide21:checked ~ .slider-dot-control label:nth-child(1),
+    #slide22:checked ~ .slider-dot-control label:nth-child(2),
+    #slide23:checked ~ .slider-dot-control label:nth-child(3),
+    #slide24:checked ~ .slider-dot-control label:nth-child(4),
+    #slide25:checked ~ .slider-dot-control label:nth-child(1),
+    #slide26:checked ~ .slider-dot-control label:nth-child(2),
+    #slide27:checked ~ .slider-dot-control label:nth-child(3),
+    #slide28:checked ~ .slider-dot-control label:nth-child(4)
+    {
+        opacity: 0.5;
+    }
+    #slide1:checked ~ .slider-wrapper .inner,
+    #slide4:checked ~ .slider-wrapper .inner,
+    #slide8:checked ~ .slider-wrapper .inner,
+    #slide12:checked ~ .slider-wrapper .inner,
+    #slide16:checked ~ .slider-wrapper .inner,
+    #slide21:checked ~ .slider-wrapper .inner,
+    #slide25:checked ~ .slider-wrapper .inner
+    {
+        margin-left: 0;
+    }
+    #slide2:checked ~ .slider-wrapper .inner,
+    #slide5:checked ~ .slider-wrapper .inner,
+    #slide9:checked ~ .slider-wrapper .inner,
+    #slide13:checked ~ .slider-wrapper .inner,
+    #slide17:checked ~ .slider-wrapper .inner,
+    #slide22:checked ~ .slider-wrapper .inner,
+    #slide26:checked ~ .slider-wrapper .inner
+    {
+        margin-left: -100%;
+    }
+    #slide3:checked ~ .slider-wrapper .inner,
+    #slide6:checked ~ .slider-wrapper .inner,
+    #slide10:checked ~ .slider-wrapper .inner,
+    #slide14:checked ~ .slider-wrapper .inner,
+    #slide18:checked ~ .slider-wrapper .inner,
+    #slide23:checked ~ .slider-wrapper .inner,
+    #slide27:checked ~ .slider-wrapper .inner
+    {
+        margin-left: -200%;
+    }
+    #slide7:checked ~ .slider-wrapper .inner,
+    #slide11:checked ~ .slider-wrapper .inner,
+    #slide15:checked ~ .slider-wrapper .inner,
+    #slide19:checked ~ .slider-wrapper .inner,
+    #slide24:checked ~ .slider-wrapper .inner,
+    #slide28:checked ~ .slider-wrapper .inner
+    {
+        margin-left: -300%;
+    }
+    #slide20:checked ~ .slider-wrapper .inner
+    {
+        margin-left: -400%;
+    }
+}
