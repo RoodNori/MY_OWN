@@ -64,27 +64,27 @@ body
     }
     aside
     {
-        float: right;
-        box-sizing: border-box;
-        width: 30%;
+        margin: 6% 0 0 0;
+        padding-bottom: 2%;
+        width: 100%;
+        border-bottom: 5vw solid $secondary-color;
         @include secondary-font();
-        padding-right: 0.5%;
         img
         {
-            width: 100%;
-            max-width: 100%;
+            float: left;
+            width: 30%;
+            max-width: 30%;
+            margin: 0 1% 0 2%;
         }
         span
         {
-            display: block;
             text-align: left;
             line-height: 4vw;
         }
     }
     main
     {
-        width: 70%;
-        margin: 6% 0 0 0;
+        width: 100%;
         @include secondary-font();
         h2
         {
@@ -93,17 +93,9 @@ body
         p
         {
             box-sizing: border-box;
-            padding-left: 1%;
+            padding-left: 2%;
             padding-right: 2%;
-        }
-        figure
-        {
-            text-align: center;
-            img
-            {
-                width: 50%;
-                max-width: 50%;
-            }
+            hyphens: auto;
         }
     }
     footer

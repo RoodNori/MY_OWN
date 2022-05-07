@@ -155,7 +155,7 @@ main article img {
 main .slider-prev-next-control {
   display: inline-block;
   overflow: hidden;
-  width: 70%;
+  width: 50%;
   position: relative;
   top: -18vw;
 }
@@ -169,7 +169,7 @@ main .slider-prev-next-control label {
 }
 
 main .slider-dot-control {
-  margin-bottom: -10%;
+  margin-bottom: -7%;
   position: relative;
   top: -7vw;
   text-align: center;
@@ -178,7 +178,7 @@ main .slider-dot-control {
 main .slider-dot-control label {
   cursor: pointer;
   display: inline-block;
-  width: 1.5%;
+  width: 1%;
   height: 1vw;
   border-radius: 1vw;
   background: #c5c3c0;
@@ -187,8 +187,8 @@ main .slider-dot-control label {
 main .slider-wrapper {
   display: inline-block;
   overflow: hidden;
-  width: 70%;
-  border-radius: 10px;
+  width: 50%;
+  border-radius: 2vw;
 }
 
 main .slider-wrapper .inner {

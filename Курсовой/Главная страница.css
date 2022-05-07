@@ -55,6 +55,9 @@ body main p {
           box-sizing: border-box;
   padding-left: 3%;
   padding-right: 2%;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
 
 body main div {
