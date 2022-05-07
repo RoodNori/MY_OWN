@@ -18,7 +18,9 @@ main #slide22:checked ~ .slider-prev-next-control label:nth-child(3),
 main #slide23:checked ~ .slider-prev-next-control label:nth-child(4),
 main #slide25:checked ~ .slider-prev-next-control label:nth-child(2),
 main #slide26:checked ~ .slider-prev-next-control label:nth-child(3),
-main #slide27:checked ~ .slider-prev-next-control label:nth-child(4) {
+main #slide27:checked ~ .slider-prev-next-control label:nth-child(4),
+main #slide29:checked ~ .slider-prev-next-control label:nth-child(2),
+main #slide30:checked ~ .slider-prev-next-control label:nth-child(3) {
   float: right;
 }
 
@@ -42,7 +44,9 @@ main #slide23:checked ~ .slider-prev-next-control label:nth-child(2),
 main #slide24:checked ~ .slider-prev-next-control label:nth-child(3),
 main #slide26:checked ~ .slider-prev-next-control label:nth-child(1),
 main #slide27:checked ~ .slider-prev-next-control label:nth-child(2),
-main #slide28:checked ~ .slider-prev-next-control label:nth-child(3) {
+main #slide28:checked ~ .slider-prev-next-control label:nth-child(3),
+main #slide30:checked ~ .slider-prev-next-control label:nth-child(1),
+main #slide31:checked ~ .slider-prev-next-control label:nth-child(2) {
   float: left;
 }
 
@@ -73,7 +77,10 @@ main #slide24:checked ~ .slider-dot-control label:nth-child(4),
 main #slide25:checked ~ .slider-dot-control label:nth-child(1),
 main #slide26:checked ~ .slider-dot-control label:nth-child(2),
 main #slide27:checked ~ .slider-dot-control label:nth-child(3),
-main #slide28:checked ~ .slider-dot-control label:nth-child(4) {
+main #slide28:checked ~ .slider-dot-control label:nth-child(4),
+main #slide29:checked ~ .slider-dot-control label:nth-child(1),
+main #slide30:checked ~ .slider-dot-control label:nth-child(2),
+main #slide31:checked ~ .slider-dot-control label:nth-child(3) {
   opacity: 0.5;
 }
 
@@ -83,7 +90,8 @@ main #slide8:checked ~ .slider-wrapper .inner,
 main #slide12:checked ~ .slider-wrapper .inner,
 main #slide16:checked ~ .slider-wrapper .inner,
 main #slide21:checked ~ .slider-wrapper .inner,
-main #slide25:checked ~ .slider-wrapper .inner {
+main #slide25:checked ~ .slider-wrapper .inner,
+main #slide29:checked ~ .slider-wrapper .inner {
   margin-left: 0;
 }
 
@@ -93,7 +101,8 @@ main #slide9:checked ~ .slider-wrapper .inner,
 main #slide13:checked ~ .slider-wrapper .inner,
 main #slide17:checked ~ .slider-wrapper .inner,
 main #slide22:checked ~ .slider-wrapper .inner,
-main #slide26:checked ~ .slider-wrapper .inner {
+main #slide26:checked ~ .slider-wrapper .inner,
+main #slide30:checked ~ .slider-wrapper .inner {
   margin-left: -100%;
 }
 
@@ -103,7 +112,8 @@ main #slide10:checked ~ .slider-wrapper .inner,
 main #slide14:checked ~ .slider-wrapper .inner,
 main #slide18:checked ~ .slider-wrapper .inner,
 main #slide23:checked ~ .slider-wrapper .inner,
-main #slide27:checked ~ .slider-wrapper .inner {
+main #slide27:checked ~ .slider-wrapper .inner,
+main #slide31:checked ~ .slider-wrapper .inner {
   margin-left: -200%;
 }
 
@@ -159,7 +169,7 @@ main .slider-prev-next-control label {
 }
 
 main .slider-dot-control {
-  margin-bottom: -60px;
+  margin-bottom: -10%;
   position: relative;
   top: -7vw;
   text-align: center;
