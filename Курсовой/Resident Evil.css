@@ -1,0 +1,108 @@
+@charset "UTF-8";
+body {
+  background-blend-mode: color-dodge;
+  background: #111213 no-repeat center fixed;
+  background-image: url("Логотип/background2.jpg");
+  background-size: contain;
+  margin: 0;
+}
+
+body a {
+  text-decoration: unset;
+  color: #c5c3c0;
+}
+
+body a:hover {
+  color: #111213;
+}
+
+body header {
+  width: 100%;
+  height: 5vw;
+  font-size: 4vw;
+  color: #c5c3c0;
+  font-family: 'Times New Roman', 'Times', serif;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background: #272727;
+}
+
+body header #blm {
+  margin-left: 25%;
+  font-size: 2vw;
+}
+
+body header img {
+  float: left;
+  width: 4.6%;
+  max-width: 4.6%;
+  margin: 0 1% 0 2%;
+}
+
+body aside {
+  margin: 6% 0 0 0;
+  padding-bottom: 2%;
+  width: 100%;
+  border-bottom: 5vw solid #272727;
+  font-size: 2vw;
+  color: #c5c3c0;
+  font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+body aside img {
+  float: left;
+  width: 30%;
+  max-width: 30%;
+  margin: 0 1% 0 2%;
+}
+
+body aside span {
+  text-align: left;
+  line-height: 4vw;
+}
+
+body main {
+  width: 100%;
+  font-size: 2vw;
+  color: #c5c3c0;
+  font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+body main h2 {
+  text-align: center;
+}
+
+body main p {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 2%;
+  padding-right: 2%;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
+
+body footer {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 5vw;
+  background: #272727;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+body footer img {
+  width: 4.6vw;
+  max-width: 4.6vw;
+}
+
+body footer #vk {
+  text-align: right;
+}
+
+body footer #github {
+  text-align: center;
+}
+/*# sourceMappingURL=Resident Evil.css.map */

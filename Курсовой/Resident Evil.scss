@@ -1,0 +1,122 @@
+$primary-color: #111213;
+$secondary-color: #272727;
+@mixin primary-font()
+{
+    font-size: 4vw;
+    color: #c5c3c0;
+    font-family: 'Times New Roman', 'Times', serif;
+}
+@mixin secondary-font()
+{
+    font-size: 2vw;
+    color: #c5c3c0;
+    font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+@mixin fixed()
+{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+@mixin background-image()
+{
+    background-blend-mode: color-dodge;
+    background: $primary-color no-repeat center fixed;
+}
+@mixin href()
+{
+    a
+    {
+        text-decoration: unset;
+        color: #c5c3c0;
+    }
+    a:hover
+    {
+        color: #111213;
+    }
+}
+body
+{
+    @include background-image();
+    background-image: url("Логотип/background2.jpg");
+    background-size: contain;
+    margin: 0;
+    @include href();
+    header
+    {
+        width: 100%;
+        height: 5vw;
+        @include primary-font();
+        @include fixed();
+        background: $secondary-color;
+        #blm 
+        {
+            margin-left: 25%;
+            font-size: 2vw;
+        }
+        img
+        {
+            float: left;
+            width: 4.6%;
+            max-width: 4.6%;
+            margin: 0 1% 0 2%;
+        }
+    }
+    aside
+    {
+        margin: 6% 0 0 0;
+        padding-bottom: 2%;
+        width: 100%;
+        border-bottom: 5vw solid $secondary-color;
+        @include secondary-font();
+        img
+        {
+            float: left;
+            width: 30%;
+            max-width: 30%;
+            margin: 0 1% 0 2%;
+        }
+        span
+        {
+            text-align: left;
+            line-height: 4vw;
+        }
+    }
+    main
+    {
+        width: 100%;
+        @include secondary-font();
+        h2
+        {
+            text-align: center;
+        }
+        p
+        {
+            box-sizing: border-box;
+            padding-left: 2%;
+            padding-right: 2%;
+            hyphens: auto;
+        }
+    }
+    footer
+    {
+        display: grid;
+        width: 100%;
+        height: 5vw;
+        background: $secondary-color;
+        grid-template-columns: repeat(3, 1fr);
+        img
+        {
+            width: 4.6vw;
+            max-width: 4.6vw;
+        }
+        #vk
+        {
+            text-align: right;
+        }
+        #github
+        {
+            text-align: center;
+        }
+    }
+}
