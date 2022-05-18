@@ -19,7 +19,7 @@ body a:hover {
 body header {
   width: 100%;
   height: 5vw;
-  font-size: 4vw;
+  font-size: 2vw;
   color: #c5c3c0;
   font-family: 'Times New Roman', 'Times', serif;
   position: fixed;
@@ -29,8 +29,15 @@ body header {
 }
 
 body header #blm {
-  margin-left: 25%;
-  font-size: 2vw;
+  font-size: 3vw;
+  position: relative;
+  top: 0.6vw;
+}
+
+body header #brd {
+  position: relative;
+  top: 0.6vw;
+  left: 29%;
 }
 
 body header img {
@@ -70,6 +77,10 @@ body main {
 }
 
 body main h2 {
+  font-size: 2vw;
+  color: #c5c3c0;
+  font-family: 'Times New Roman', 'Times', serif;
+  font-size: 4vw;
   text-align: center;
 }
 
@@ -103,6 +114,6 @@ body footer #vk {
 }
 
 body footer #github {
-  text-align: center;
+  margin: auto;
 }
 /*# sourceMappingURL=Dead Space.css.map */

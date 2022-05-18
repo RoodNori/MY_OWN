@@ -19,7 +19,7 @@ body a:hover {
 body header {
   width: 100%;
   height: 5vw;
-  font-size: 4vw;
+  font-size: 2vw;
   color: #c5c3c0;
   font-family: 'Times New Roman', 'Times', serif;
   position: fixed;
@@ -27,9 +27,16 @@ body header {
   background: #272727;
 }
 
+body header #blm {
+  font-size: 3vw;
+  position: relative;
+  top: 0.6vw;
+}
+
 body header label {
-  margin-left: 26%;
-  font-size: 2vw;
+  position: relative;
+  top: 0.6vw;
+  left: 29%;
 }
 
 body header img {
@@ -49,12 +56,13 @@ body header ul {
       -ms-flex-align: center;
           align-items: center;
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  margin-top: 1.6vw;
+  padding-left: 0;
 }
 
 body header ul li {
-  width: 25%;
+  font-size: 3vw;
+  width: 20%;
   text-align: center;
   background: #272727;
 }
@@ -123,6 +131,6 @@ body footer #vk {
 }
 
 body footer #github {
-  text-align: center;
+  margin: auto;
 }
 /*# sourceMappingURL=Меню.css.map */

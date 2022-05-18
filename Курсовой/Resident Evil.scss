@@ -2,7 +2,7 @@ $primary-color: #111213;
 $secondary-color: #272727;
 @mixin primary-font()
 {
-    font-size: 4vw;
+    font-size: 2vw;
     color: #c5c3c0;
     font-family: 'Times New Roman', 'Times', serif;
 }
@@ -49,10 +49,17 @@ body
         @include primary-font();
         @include fixed();
         background: $secondary-color;
-        #blm 
+        #blm
         {
-            margin-left: 25%;
-            font-size: 2vw;
+            font-size: 3vw;
+            position: relative;
+            top: 0.6vw;
+        }
+        #brd
+        {
+            position: relative;
+            top: 0.6vw;
+            left: 29%;
         }
         img
         {
@@ -88,6 +95,8 @@ body
         @include secondary-font();
         h2
         {
+            @include primary-font();
+            font-size: 4vw;
             text-align: center;
         }
         p
@@ -116,7 +125,7 @@ body
         }
         #github
         {
-            text-align: center;
+            margin: auto;
         }
     }
 }
