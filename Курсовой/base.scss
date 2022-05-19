@@ -1,69 +1,69 @@
 @import "reset";
 main
 {
-    input
-    {
-        display: none;
-    }
     .wrapper
     {
         text-align: center;
-    }
-    .inner
-    {
-        width: 500%;
-    }
-    article
-    {
-        float: left;
-        width: 20%;
-        img
+        input
         {
-            width: 100%;
-            max-width: 100%;
+            display: none;
         }
-    }
-    .slider-prev-next-control
-    {
-        display: inline-block;
-        overflow: hidden;
-        width: 50%;
-        position: relative;
-        top: -18vw;
-        label
-        {
-            opacity: 0.5;
-            width: 8%;
-            height: 4vw;
-            border-radius: 2vw;
-            background: #c5c3c0;
-        }
-    }
-    .slider-dot-control
-    {
-        margin-bottom: -7%;
-        position: relative;
-        top: -7vw;
-        text-align: center;
-        label
-        {
-            cursor: pointer;
-            display: inline-block;
-            width: 1%;
-            height: 1vw;
-            border-radius: 1vw;
-            background: #c5c3c0;
-        }
-    }
-    .slider-wrapper
-    {
-        display: inline-block;
-        overflow: hidden;
-        width: 50%;
-        border-radius: 2vw;
         .inner
         {
-            transition: all .8s
+            width: 500%;
+        }
+        article
+        {
+            float: left;
+            width: 20%;
+            img
+            {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+        .slider-prev-next-control
+        {
+            display: inline-block;
+            overflow: hidden;
+            width: 50%;
+            position: relative;
+            top: -18vw;
+            label
+            {
+                opacity: 0.5;
+                width: 8%;
+                height: 4vw;
+                border-radius: 2vw;
+                background: #c5c3c0;
+            }
+        }
+        .slider-dot-control
+        {
+            margin-bottom: -7%;
+            position: relative;
+            top: -7vw;
+            text-align: center;
+            label
+            {
+                cursor: pointer;
+                display: inline-block;
+                width: 1%;
+                height: 1vw;
+                border-radius: 1vw;
+                background: #c5c3c0;
+            }
+        }
+        .slider-wrapper
+        {
+            display: inline-block;
+            overflow: hidden;
+            width: 50%;
+            border-radius: 2vw;
+            .inner
+            {
+                transition: all .8s
+            }
         }
     }
 }

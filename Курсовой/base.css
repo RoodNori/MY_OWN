@@ -1,158 +1,158 @@
-main #slide1:checked ~ .slider-prev-next-control label:nth-child(2),
-main #slide2:checked ~ .slider-prev-next-control label:nth-child(3),
-main #slide4:checked ~ .slider-prev-next-control label:nth-child(2),
-main #slide5:checked ~ .slider-prev-next-control label:nth-child(3),
-main #slide6:checked ~ .slider-prev-next-control label:nth-child(4),
-main #slide8:checked ~ .slider-prev-next-control label:nth-child(2),
-main #slide9:checked ~ .slider-prev-next-control label:nth-child(3),
-main #slide10:checked ~ .slider-prev-next-control label:nth-child(4),
-main #slide12:checked ~ .slider-prev-next-control label:nth-child(2),
-main #slide13:checked ~ .slider-prev-next-control label:nth-child(3),
-main #slide14:checked ~ .slider-prev-next-control label:nth-child(4),
-main #slide16:checked ~ .slider-prev-next-control label:nth-child(2),
-main #slide17:checked ~ .slider-prev-next-control label:nth-child(3),
-main #slide18:checked ~ .slider-prev-next-control label:nth-child(4),
-main #slide19:checked ~ .slider-prev-next-control label:nth-child(5),
-main #slide21:checked ~ .slider-prev-next-control label:nth-child(2),
-main #slide22:checked ~ .slider-prev-next-control label:nth-child(3),
-main #slide23:checked ~ .slider-prev-next-control label:nth-child(4),
-main #slide25:checked ~ .slider-prev-next-control label:nth-child(2),
-main #slide26:checked ~ .slider-prev-next-control label:nth-child(3),
-main #slide27:checked ~ .slider-prev-next-control label:nth-child(4),
-main #slide29:checked ~ .slider-prev-next-control label:nth-child(2),
-main #slide30:checked ~ .slider-prev-next-control label:nth-child(3) {
+main .wrapper #slide1:checked ~ .slider-prev-next-control label:nth-child(2),
+main .wrapper #slide2:checked ~ .slider-prev-next-control label:nth-child(3),
+main .wrapper #slide4:checked ~ .slider-prev-next-control label:nth-child(2),
+main .wrapper #slide5:checked ~ .slider-prev-next-control label:nth-child(3),
+main .wrapper #slide6:checked ~ .slider-prev-next-control label:nth-child(4),
+main .wrapper #slide8:checked ~ .slider-prev-next-control label:nth-child(2),
+main .wrapper #slide9:checked ~ .slider-prev-next-control label:nth-child(3),
+main .wrapper #slide10:checked ~ .slider-prev-next-control label:nth-child(4),
+main .wrapper #slide12:checked ~ .slider-prev-next-control label:nth-child(2),
+main .wrapper #slide13:checked ~ .slider-prev-next-control label:nth-child(3),
+main .wrapper #slide14:checked ~ .slider-prev-next-control label:nth-child(4),
+main .wrapper #slide16:checked ~ .slider-prev-next-control label:nth-child(2),
+main .wrapper #slide17:checked ~ .slider-prev-next-control label:nth-child(3),
+main .wrapper #slide18:checked ~ .slider-prev-next-control label:nth-child(4),
+main .wrapper #slide19:checked ~ .slider-prev-next-control label:nth-child(5),
+main .wrapper #slide21:checked ~ .slider-prev-next-control label:nth-child(2),
+main .wrapper #slide22:checked ~ .slider-prev-next-control label:nth-child(3),
+main .wrapper #slide23:checked ~ .slider-prev-next-control label:nth-child(4),
+main .wrapper #slide25:checked ~ .slider-prev-next-control label:nth-child(2),
+main .wrapper #slide26:checked ~ .slider-prev-next-control label:nth-child(3),
+main .wrapper #slide27:checked ~ .slider-prev-next-control label:nth-child(4),
+main .wrapper #slide29:checked ~ .slider-prev-next-control label:nth-child(2),
+main .wrapper #slide30:checked ~ .slider-prev-next-control label:nth-child(3) {
   float: right;
 }
 
-main #slide2:checked ~ .slider-prev-next-control label:nth-child(1),
-main #slide3:checked ~ .slider-prev-next-control label:nth-child(2),
-main #slide5:checked ~ .slider-prev-next-control label:nth-child(1),
-main #slide6:checked ~ .slider-prev-next-control label:nth-child(2),
-main #slide7:checked ~ .slider-prev-next-control label:nth-child(3),
-main #slide9:checked ~ .slider-prev-next-control label:nth-child(1),
-main #slide10:checked ~ .slider-prev-next-control label:nth-child(2),
-main #slide11:checked ~ .slider-prev-next-control label:nth-child(3),
-main #slide13:checked ~ .slider-prev-next-control label:nth-child(1),
-main #slide14:checked ~ .slider-prev-next-control label:nth-child(2),
-main #slide15:checked ~ .slider-prev-next-control label:nth-child(3),
-main #slide17:checked ~ .slider-prev-next-control label:nth-child(1),
-main #slide18:checked ~ .slider-prev-next-control label:nth-child(2),
-main #slide19:checked ~ .slider-prev-next-control label:nth-child(3),
-main #slide20:checked ~ .slider-prev-next-control label:nth-child(4),
-main #slide22:checked ~ .slider-prev-next-control label:nth-child(1),
-main #slide23:checked ~ .slider-prev-next-control label:nth-child(2),
-main #slide24:checked ~ .slider-prev-next-control label:nth-child(3),
-main #slide26:checked ~ .slider-prev-next-control label:nth-child(1),
-main #slide27:checked ~ .slider-prev-next-control label:nth-child(2),
-main #slide28:checked ~ .slider-prev-next-control label:nth-child(3),
-main #slide30:checked ~ .slider-prev-next-control label:nth-child(1),
-main #slide31:checked ~ .slider-prev-next-control label:nth-child(2) {
+main .wrapper #slide2:checked ~ .slider-prev-next-control label:nth-child(1),
+main .wrapper #slide3:checked ~ .slider-prev-next-control label:nth-child(2),
+main .wrapper #slide5:checked ~ .slider-prev-next-control label:nth-child(1),
+main .wrapper #slide6:checked ~ .slider-prev-next-control label:nth-child(2),
+main .wrapper #slide7:checked ~ .slider-prev-next-control label:nth-child(3),
+main .wrapper #slide9:checked ~ .slider-prev-next-control label:nth-child(1),
+main .wrapper #slide10:checked ~ .slider-prev-next-control label:nth-child(2),
+main .wrapper #slide11:checked ~ .slider-prev-next-control label:nth-child(3),
+main .wrapper #slide13:checked ~ .slider-prev-next-control label:nth-child(1),
+main .wrapper #slide14:checked ~ .slider-prev-next-control label:nth-child(2),
+main .wrapper #slide15:checked ~ .slider-prev-next-control label:nth-child(3),
+main .wrapper #slide17:checked ~ .slider-prev-next-control label:nth-child(1),
+main .wrapper #slide18:checked ~ .slider-prev-next-control label:nth-child(2),
+main .wrapper #slide19:checked ~ .slider-prev-next-control label:nth-child(3),
+main .wrapper #slide20:checked ~ .slider-prev-next-control label:nth-child(4),
+main .wrapper #slide22:checked ~ .slider-prev-next-control label:nth-child(1),
+main .wrapper #slide23:checked ~ .slider-prev-next-control label:nth-child(2),
+main .wrapper #slide24:checked ~ .slider-prev-next-control label:nth-child(3),
+main .wrapper #slide26:checked ~ .slider-prev-next-control label:nth-child(1),
+main .wrapper #slide27:checked ~ .slider-prev-next-control label:nth-child(2),
+main .wrapper #slide28:checked ~ .slider-prev-next-control label:nth-child(3),
+main .wrapper #slide30:checked ~ .slider-prev-next-control label:nth-child(1),
+main .wrapper #slide31:checked ~ .slider-prev-next-control label:nth-child(2) {
   float: left;
 }
 
-main #slide1:checked ~ .slider-dot-control label:nth-child(1),
-main #slide2:checked ~ .slider-dot-control label:nth-child(2),
-main #slide3:checked ~ .slider-dot-control label:nth-child(3),
-main #slide4:checked ~ .slider-dot-control label:nth-child(1),
-main #slide5:checked ~ .slider-dot-control label:nth-child(2),
-main #slide6:checked ~ .slider-dot-control label:nth-child(3),
-main #slide7:checked ~ .slider-dot-control label:nth-child(4),
-main #slide8:checked ~ .slider-dot-control label:nth-child(1),
-main #slide9:checked ~ .slider-dot-control label:nth-child(2),
-main #slide10:checked ~ .slider-dot-control label:nth-child(3),
-main #slide11:checked ~ .slider-dot-control label:nth-child(4),
-main #slide12:checked ~ .slider-dot-control label:nth-child(1),
-main #slide13:checked ~ .slider-dot-control label:nth-child(2),
-main #slide14:checked ~ .slider-dot-control label:nth-child(3),
-main #slide15:checked ~ .slider-dot-control label:nth-child(4),
-main #slide16:checked ~ .slider-dot-control label:nth-child(1),
-main #slide17:checked ~ .slider-dot-control label:nth-child(2),
-main #slide18:checked ~ .slider-dot-control label:nth-child(3),
-main #slide19:checked ~ .slider-dot-control label:nth-child(4),
-main #slide20:checked ~ .slider-dot-control label:nth-child(5),
-main #slide21:checked ~ .slider-dot-control label:nth-child(1),
-main #slide22:checked ~ .slider-dot-control label:nth-child(2),
-main #slide23:checked ~ .slider-dot-control label:nth-child(3),
-main #slide24:checked ~ .slider-dot-control label:nth-child(4),
-main #slide25:checked ~ .slider-dot-control label:nth-child(1),
-main #slide26:checked ~ .slider-dot-control label:nth-child(2),
-main #slide27:checked ~ .slider-dot-control label:nth-child(3),
-main #slide28:checked ~ .slider-dot-control label:nth-child(4),
-main #slide29:checked ~ .slider-dot-control label:nth-child(1),
-main #slide30:checked ~ .slider-dot-control label:nth-child(2),
-main #slide31:checked ~ .slider-dot-control label:nth-child(3) {
+main .wrapper #slide1:checked ~ .slider-dot-control label:nth-child(1),
+main .wrapper #slide2:checked ~ .slider-dot-control label:nth-child(2),
+main .wrapper #slide3:checked ~ .slider-dot-control label:nth-child(3),
+main .wrapper #slide4:checked ~ .slider-dot-control label:nth-child(1),
+main .wrapper #slide5:checked ~ .slider-dot-control label:nth-child(2),
+main .wrapper #slide6:checked ~ .slider-dot-control label:nth-child(3),
+main .wrapper #slide7:checked ~ .slider-dot-control label:nth-child(4),
+main .wrapper #slide8:checked ~ .slider-dot-control label:nth-child(1),
+main .wrapper #slide9:checked ~ .slider-dot-control label:nth-child(2),
+main .wrapper #slide10:checked ~ .slider-dot-control label:nth-child(3),
+main .wrapper #slide11:checked ~ .slider-dot-control label:nth-child(4),
+main .wrapper #slide12:checked ~ .slider-dot-control label:nth-child(1),
+main .wrapper #slide13:checked ~ .slider-dot-control label:nth-child(2),
+main .wrapper #slide14:checked ~ .slider-dot-control label:nth-child(3),
+main .wrapper #slide15:checked ~ .slider-dot-control label:nth-child(4),
+main .wrapper #slide16:checked ~ .slider-dot-control label:nth-child(1),
+main .wrapper #slide17:checked ~ .slider-dot-control label:nth-child(2),
+main .wrapper #slide18:checked ~ .slider-dot-control label:nth-child(3),
+main .wrapper #slide19:checked ~ .slider-dot-control label:nth-child(4),
+main .wrapper #slide20:checked ~ .slider-dot-control label:nth-child(5),
+main .wrapper #slide21:checked ~ .slider-dot-control label:nth-child(1),
+main .wrapper #slide22:checked ~ .slider-dot-control label:nth-child(2),
+main .wrapper #slide23:checked ~ .slider-dot-control label:nth-child(3),
+main .wrapper #slide24:checked ~ .slider-dot-control label:nth-child(4),
+main .wrapper #slide25:checked ~ .slider-dot-control label:nth-child(1),
+main .wrapper #slide26:checked ~ .slider-dot-control label:nth-child(2),
+main .wrapper #slide27:checked ~ .slider-dot-control label:nth-child(3),
+main .wrapper #slide28:checked ~ .slider-dot-control label:nth-child(4),
+main .wrapper #slide29:checked ~ .slider-dot-control label:nth-child(1),
+main .wrapper #slide30:checked ~ .slider-dot-control label:nth-child(2),
+main .wrapper #slide31:checked ~ .slider-dot-control label:nth-child(3) {
   opacity: 0.5;
 }
 
-main #slide1:checked ~ .slider-wrapper .inner,
-main #slide4:checked ~ .slider-wrapper .inner,
-main #slide8:checked ~ .slider-wrapper .inner,
-main #slide12:checked ~ .slider-wrapper .inner,
-main #slide16:checked ~ .slider-wrapper .inner,
-main #slide21:checked ~ .slider-wrapper .inner,
-main #slide25:checked ~ .slider-wrapper .inner,
-main #slide29:checked ~ .slider-wrapper .inner {
+main .wrapper #slide1:checked ~ .slider-wrapper .inner,
+main .wrapper #slide4:checked ~ .slider-wrapper .inner,
+main .wrapper #slide8:checked ~ .slider-wrapper .inner,
+main .wrapper #slide12:checked ~ .slider-wrapper .inner,
+main .wrapper #slide16:checked ~ .slider-wrapper .inner,
+main .wrapper #slide21:checked ~ .slider-wrapper .inner,
+main .wrapper #slide25:checked ~ .slider-wrapper .inner,
+main .wrapper #slide29:checked ~ .slider-wrapper .inner {
   margin-left: 0;
 }
 
-main #slide2:checked ~ .slider-wrapper .inner,
-main #slide5:checked ~ .slider-wrapper .inner,
-main #slide9:checked ~ .slider-wrapper .inner,
-main #slide13:checked ~ .slider-wrapper .inner,
-main #slide17:checked ~ .slider-wrapper .inner,
-main #slide22:checked ~ .slider-wrapper .inner,
-main #slide26:checked ~ .slider-wrapper .inner,
-main #slide30:checked ~ .slider-wrapper .inner {
+main .wrapper #slide2:checked ~ .slider-wrapper .inner,
+main .wrapper #slide5:checked ~ .slider-wrapper .inner,
+main .wrapper #slide9:checked ~ .slider-wrapper .inner,
+main .wrapper #slide13:checked ~ .slider-wrapper .inner,
+main .wrapper #slide17:checked ~ .slider-wrapper .inner,
+main .wrapper #slide22:checked ~ .slider-wrapper .inner,
+main .wrapper #slide26:checked ~ .slider-wrapper .inner,
+main .wrapper #slide30:checked ~ .slider-wrapper .inner {
   margin-left: -100%;
 }
 
-main #slide3:checked ~ .slider-wrapper .inner,
-main #slide6:checked ~ .slider-wrapper .inner,
-main #slide10:checked ~ .slider-wrapper .inner,
-main #slide14:checked ~ .slider-wrapper .inner,
-main #slide18:checked ~ .slider-wrapper .inner,
-main #slide23:checked ~ .slider-wrapper .inner,
-main #slide27:checked ~ .slider-wrapper .inner,
-main #slide31:checked ~ .slider-wrapper .inner {
+main .wrapper #slide3:checked ~ .slider-wrapper .inner,
+main .wrapper #slide6:checked ~ .slider-wrapper .inner,
+main .wrapper #slide10:checked ~ .slider-wrapper .inner,
+main .wrapper #slide14:checked ~ .slider-wrapper .inner,
+main .wrapper #slide18:checked ~ .slider-wrapper .inner,
+main .wrapper #slide23:checked ~ .slider-wrapper .inner,
+main .wrapper #slide27:checked ~ .slider-wrapper .inner,
+main .wrapper #slide31:checked ~ .slider-wrapper .inner {
   margin-left: -200%;
 }
 
-main #slide7:checked ~ .slider-wrapper .inner,
-main #slide11:checked ~ .slider-wrapper .inner,
-main #slide15:checked ~ .slider-wrapper .inner,
-main #slide19:checked ~ .slider-wrapper .inner,
-main #slide24:checked ~ .slider-wrapper .inner,
-main #slide28:checked ~ .slider-wrapper .inner {
+main .wrapper #slide7:checked ~ .slider-wrapper .inner,
+main .wrapper #slide11:checked ~ .slider-wrapper .inner,
+main .wrapper #slide15:checked ~ .slider-wrapper .inner,
+main .wrapper #slide19:checked ~ .slider-wrapper .inner,
+main .wrapper #slide24:checked ~ .slider-wrapper .inner,
+main .wrapper #slide28:checked ~ .slider-wrapper .inner {
   margin-left: -300%;
 }
 
-main #slide20:checked ~ .slider-wrapper .inner {
+main .wrapper #slide20:checked ~ .slider-wrapper .inner {
   margin-left: -400%;
-}
-
-main input {
-  display: none;
 }
 
 main .wrapper {
   text-align: center;
 }
 
-main .inner {
+main .wrapper input {
+  display: none;
+}
+
+main .wrapper .inner {
   width: 500%;
 }
 
-main article {
+main .wrapper article {
   float: left;
   width: 20%;
 }
 
-main article img {
+main .wrapper article img {
   width: 100%;
   max-width: 100%;
 }
 
-main .slider-prev-next-control {
+main .wrapper .slider-prev-next-control {
   display: inline-block;
   overflow: hidden;
   width: 50%;
@@ -160,7 +160,7 @@ main .slider-prev-next-control {
   top: -18vw;
 }
 
-main .slider-prev-next-control label {
+main .wrapper .slider-prev-next-control label {
   opacity: 0.5;
   width: 8%;
   height: 4vw;
@@ -168,14 +168,14 @@ main .slider-prev-next-control label {
   background: #c5c3c0;
 }
 
-main .slider-dot-control {
+main .wrapper .slider-dot-control {
   margin-bottom: -7%;
   position: relative;
   top: -7vw;
   text-align: center;
 }
 
-main .slider-dot-control label {
+main .wrapper .slider-dot-control label {
   cursor: pointer;
   display: inline-block;
   width: 1%;
@@ -184,14 +184,14 @@ main .slider-dot-control label {
   background: #c5c3c0;
 }
 
-main .slider-wrapper {
+main .wrapper .slider-wrapper {
   display: inline-block;
   overflow: hidden;
   width: 50%;
   border-radius: 2vw;
 }
 
-main .slider-wrapper .inner {
+main .wrapper .slider-wrapper .inner {
   -webkit-transition: all .8s;
   transition: all .8s;
 }

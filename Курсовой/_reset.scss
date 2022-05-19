@@ -1,6 +1,6 @@
 main
 {
-    #wrapper
+    .wrapper
     {
         #slide1:checked ~ .slider-prev-next-control label:nth-child(2),
         #slide2:checked ~ .slider-prev-next-control label:nth-child(3),

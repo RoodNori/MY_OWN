@@ -41,8 +41,8 @@ body header > label {
 
 body header img {
   float: left;
-  width: 4.6vw;
-  max-width: 4.6vw;
+  width: 4.8%;
+  max-width: 4.8%;
   margin: 0 1% 0 3%;
 }
 
@@ -56,7 +56,7 @@ body header ul {
       -ms-flex-align: center;
           align-items: center;
   list-style-type: none;
-  margin-top: 1.6vw;
+  margin-top: 1.6%;
   padding-left: 0;
 }
 
