@@ -17,8 +17,12 @@ body a:hover {
 }
 
 body header {
+  display: -ms-grid;
+  display: grid;
   width: 100%;
   height: 5vw;
+  -ms-grid-columns: 1fr 1.2fr;
+      grid-template-columns: 1fr 1.2fr;
   font-size: 2vw;
   color: #c5c3c0;
   font-family: 'Times New Roman', 'Times', serif;
@@ -27,23 +31,25 @@ body header {
   background: #272727;
 }
 
-body header span {
+body header div[data-title="tide"] {
+  margin: unset;
+}
+
+body header div[data-title="tide"] span {
   font-size: 3vw;
   position: relative;
   top: 0.6vw;
 }
 
-body header a[title] {
-  position: relative;
-  top: 0.6vw;
-  left: 28%;
+body header div {
+  margin: auto 0;
 }
 
 body header img {
   float: left;
-  width: 4.6%;
-  max-width: 4.6%;
-  margin: 0 1% 0 3%;
+  width: 10.4%;
+  max-width: 10.4%;
+  margin: 0 1% 0 6%;
 }
 
 body main {

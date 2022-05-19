@@ -43,29 +43,34 @@ body
     @include href();
     header
     {
+        display: grid;
         width: 100%;
         height: 5vw;
+        grid-template-columns: 1fr 1.2fr;
         @include primary-font();
         @include fixed();
         background: $secondary-color;
-        span
+        div[data-title = "tide"]
         {
-            font-size: 3vw;
-            position: relative;
-            top: 0.6vw;
+            margin: unset;
+            span
+            {
+                font-size: 3vw;
+                position: relative;
+                top: 0.6vw;
+            }
         }
-        a[title]
+        div
         {
-            position: relative;
-            top: 0.6vw;
-            left: 28%;
+            margin: auto 0;
+
         }
         img
         {
             float: left;
-            width: 4.6%;
-            max-width: 4.6%;
-            margin: 0 1% 0 3%;
+            width: 10.4%;
+            max-width: 10.4%;
+            margin: 0 1% 0 6%;
         }
     }
     main
