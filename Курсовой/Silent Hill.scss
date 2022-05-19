@@ -44,37 +44,46 @@ body
     @include href();
     header
     {
+        display: grid;
         width: 100%;
         height: 5vw;
+        grid-template-columns: 3fr 1fr 3fr;
         @include primary-font();
         @include fixed();
         background: $secondary-color;
-        #blm
+        div[data-title = "tide"]
         {
-            font-size: 3vw;
-            position: relative;
-            top: 0.6vw;
+            margin: unset;
+            span
+            {
+                font-size: 3vw;
+                position: relative;
+                top: 0.6vw;
+            }
         }
-        #brd
+        div 
         {
-            position: relative;
-            top: 0.6vw;
-            left: 29%;
+            margin: auto;
+            audio
+            {
+                width: 42vw;
+                height: 3vw;
+            }
         }
         img
         {
             float: left;
-            width: 4.6%;
-            max-width: 4.6%;
-            margin: 0 1% 0 2%;
+            width: 11%;
+            max-width: 11%;
+            margin: 0 1% 0 6%;
         }
     }
     aside
     {
         margin: 6% 0 0 0;
-        padding-bottom: 2%;
+        padding: 0 0 2% 0;
         width: 100%;
-        border-bottom: 5vw solid $secondary-color;
+        border-bottom: #272727 solid 5vw;
         @include secondary-font();
         img
         {
@@ -85,7 +94,6 @@ body
         }
         span
         {
-            text-align: left;
             line-height: 4vw;
         }
     }
@@ -119,11 +127,11 @@ body
             width: 4.9vw;
             max-width: 4.9vw;
         }
-        #vk
+        div[data-title = "vk"]
         {
             text-align: right;
         }
-        #github
+        div[data-title = "github"]
         {
             margin: auto;
         }

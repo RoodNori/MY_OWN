@@ -28,13 +28,13 @@ body header {
   background: #272727;
 }
 
-body header #blm {
+body header span {
   font-size: 3vw;
   position: relative;
   top: 0.6vw;
 }
 
-body header #brd {
+body header a[title] {
   position: relative;
   top: 0.6vw;
   left: 29%;
@@ -44,7 +44,7 @@ body header img {
   float: left;
   width: 4.6%;
   max-width: 4.6%;
-  margin: 0 1% 0 2%;
+  margin: 0 1% 0 3%;
 }
 
 body aside {
@@ -109,11 +109,11 @@ body footer img {
   max-width: 4.6vw;
 }
 
-body footer #vk {
+body footer div[data-title="vk"] {
   text-align: right;
 }
 
-body footer #github {
+body footer div[data-title="github"] {
   margin: auto;
 }
 /*# sourceMappingURL=Dead Space.css.map */

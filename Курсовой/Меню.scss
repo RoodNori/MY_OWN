@@ -48,24 +48,24 @@ body
         @include primary-font();
         @include fixed();
         background: $secondary-color;
-        #blm
+        span
         {
             font-size: 3vw;
             position: relative;
             top: 0.6vw;
         }
-        label
+        > label
         {
             position: relative;
             top: 0.6vw;
-            left: 29%;
+            left: 28%;
         }
         img
         {
             float: left;
             width: 4.6vw;
             max-width: 4.6vw;
-            margin: 0 1% 0 2%;
+            margin: 0 1% 0 3%;
         }
         ul
         {
@@ -129,11 +129,11 @@ body
             width: 4.6vw;
             max-width: 4.6vw;
         }
-        #vk
+        div[data-title = "vk"]
         {
             text-align: right;
         }
-        #github
+        div[data-title = "github"]
         {
             margin: auto;
         }

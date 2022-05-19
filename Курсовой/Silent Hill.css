@@ -17,8 +17,12 @@ body a:hover {
 }
 
 body header {
+  display: -ms-grid;
+  display: grid;
   width: 100%;
   height: 5vw;
+  -ms-grid-columns: 3fr 1fr 3fr;
+      grid-template-columns: 3fr 1fr 3fr;
   font-size: 2vw;
   color: #c5c3c0;
   font-family: 'Times New Roman', 'Times', serif;
@@ -28,30 +32,37 @@ body header {
   background: #272727;
 }
 
-body header #blm {
+body header div[data-title="tide"] {
+  margin: unset;
+}
+
+body header div[data-title="tide"] span {
   font-size: 3vw;
   position: relative;
   top: 0.6vw;
 }
 
-body header #brd {
-  position: relative;
-  top: 0.6vw;
-  left: 29%;
+body header div {
+  margin: auto;
+}
+
+body header div audio {
+  width: 42vw;
+  height: 3vw;
 }
 
 body header img {
   float: left;
-  width: 4.6%;
-  max-width: 4.6%;
-  margin: 0 1% 0 2%;
+  width: 11%;
+  max-width: 11%;
+  margin: 0 1% 0 6%;
 }
 
 body aside {
   margin: 6% 0 0 0;
-  padding-bottom: 2%;
+  padding: 0 0 2% 0;
   width: 100%;
-  border-bottom: 5vw solid #272727;
+  border-bottom: #272727 solid 5vw;
   font-size: 2vw;
   color: #c5c3c0;
   font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
@@ -65,7 +76,6 @@ body aside img {
 }
 
 body aside span {
-  text-align: left;
   line-height: 4vw;
 }
 
@@ -109,11 +119,11 @@ body footer img {
   max-width: 4.9vw;
 }
 
-body footer #vk {
+body footer div[data-title="vk"] {
   text-align: right;
 }
 
-body footer #github {
+body footer div[data-title="github"] {
   margin: auto;
 }
 /*# sourceMappingURL=Silent Hill.css.map */

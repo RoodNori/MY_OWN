@@ -49,13 +49,13 @@ body
         @include primary-font();
         @include fixed();
         background: $secondary-color;
-        #blm
+        span
         {
             font-size: 3vw;
             position: relative;
             top: 0.6vw;
         }
-        #brd
+        a[title]
         {
             position: relative;
             top: 0.6vw;
@@ -66,7 +66,7 @@ body
             float: left;
             width: 4.6%;
             max-width: 4.6%;
-            margin: 0 1% 0 2%;
+            margin: 0 1% 0 3%;
         }
     }
     aside
@@ -119,11 +119,11 @@ body
             width: 4.6vw;
             max-width: 4.6vw;
         }
-        #vk
+        div[data-title = "vk"]
         {
             text-align: right;
         }
-        #github
+        div[data-title = "github"]
         {
             margin: auto;
         }
