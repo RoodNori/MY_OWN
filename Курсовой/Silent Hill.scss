@@ -60,6 +60,10 @@ body
                 position: relative;
                 top: 0.6vw;
             }
+            a:active > img
+            {
+                transform: scale(0.8);
+            }
         }
         div 
         {
@@ -126,6 +130,10 @@ body
         {
             width: 4.9vw;
             max-width: 4.9vw;
+        }
+        img:active
+        {
+            transform: scale(0.8);
         }
         div[data-title = "vk"]
         {

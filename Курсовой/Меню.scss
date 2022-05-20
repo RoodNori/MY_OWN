@@ -54,18 +54,35 @@ body
             position: relative;
             top: 0.6vw;
         }
-        > label
+        > a:active > img
+        {
+            transform: scale(0.8);
+        }
+        input
+        {
+            display: none;
+        }
+        input:checked ~ ul
+        {
+            display: flex;
+        }
+        label
         {
             position: relative;
             top: 0.6vw;
-            left: 28%;
+            left: 28%; 
+            cursor: pointer;
+            :active
+            {
+                color: #111213;
+            }
         }
         img
         {
             float: left;
             width: 4.8%;
             max-width: 4.8%;
-            margin: 0 1% 0 3%;
+            margin: 0 1% 0 3%; 
         }
         ul
         {
@@ -78,26 +95,11 @@ body
             li
             {
                 font-size: 3vw;
-                width: 20%;
+                width: 17%;
                 text-align: center;
+                border-bottom: #111213 solid 0.2vw;
                 background: $secondary-color;
             }
-        }
-        input
-        {
-            display: none;
-        }
-        label
-        {
-            cursor: pointer;
-        }
-        label:active
-        {
-            color: #111213;
-        }
-        input:checked ~ ul
-        {
-            display: flex;
         }
     }
     main
@@ -128,6 +130,10 @@ body
         {
             width: 4.6vw;
             max-width: 4.6vw;
+        }
+        img:active
+        {
+            transform: scale(0.8);
         }
         div[data-title = "vk"]
         {

@@ -42,6 +42,11 @@ body header div[data-title="tide"] span {
   top: 0.6vw;
 }
 
+body header div[data-title="tide"] a:active > img {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
 body header div {
   margin: auto;
 }
@@ -118,6 +123,11 @@ body footer {
 body footer img {
   width: 4.6vw;
   max-width: 4.6vw;
+}
+
+body footer img:active {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
 }
 
 body footer div[data-title="vk"] {
