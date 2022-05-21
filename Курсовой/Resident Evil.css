@@ -61,6 +61,8 @@ body header img {
   width: 11%;
   max-width: 11%;
   margin: 0 1% 0 6%;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
 }
 
 body aside {
@@ -123,6 +125,8 @@ body footer {
 body footer img {
   width: 4.6vw;
   max-width: 4.6vw;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
 }
 
 body footer img:active {

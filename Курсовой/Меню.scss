@@ -76,23 +76,25 @@ body
             top: 0.6vw;
             left: 28%; 
             cursor: pointer;
-            :active
-            {
-                color: #111213;
-            }
+        }
+        label:active
+        {
+            color: #111213;
         }
         label:after
         {
             display: inline-block;
             content: '\27A4';
             transform: rotate(90deg);
+            transition-duration: 0.4s;
         }
         img
         {
             float: left;
             width: 4.8%;
             max-width: 4.8%;
-            margin: 0 1% 0 3%; 
+            margin: 0 1% 0 3%;
+            transition-duration: 0.1s;
         }
         ul
         {
@@ -140,6 +142,7 @@ body
         {
             width: 4.6vw;
             max-width: 4.6vw;
+            transition-duration: 0.1s;
         }
         img:active
         {

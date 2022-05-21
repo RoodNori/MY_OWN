@@ -60,7 +60,7 @@ body header label {
   cursor: pointer;
 }
 
-body header label :active {
+body header label:active {
   color: #111213;
 }
 
@@ -69,6 +69,8 @@ body header label:after {
   content: '\27A4';
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 body header img {
@@ -76,6 +78,8 @@ body header img {
   width: 4.8%;
   max-width: 4.8%;
   margin: 0 1% 0 3%;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
 }
 
 body header ul {
@@ -139,6 +143,8 @@ body footer {
 body footer img {
   width: 4.6vw;
   max-width: 4.6vw;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
 }
 
 body footer img:active {
