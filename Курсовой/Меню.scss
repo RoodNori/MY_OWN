@@ -66,6 +66,10 @@ body
         {
             display: flex;
         }
+        input:checked ~ label:after
+        {
+            transform: rotate(-90deg);
+        }
         label
         {
             position: relative;
@@ -76,6 +80,12 @@ body
             {
                 color: #111213;
             }
+        }
+        label:after
+        {
+            display: inline-block;
+            content: '\27A4';
+            transform: rotate(90deg);
         }
         img
         {

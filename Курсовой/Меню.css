@@ -48,6 +48,11 @@ body header input:checked ~ ul {
   display: flex;
 }
 
+body header input:checked ~ label:after {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
 body header label {
   position: relative;
   top: 0.6vw;
@@ -57,6 +62,13 @@ body header label {
 
 body header label :active {
   color: #111213;
+}
+
+body header label:after {
+  display: inline-block;
+  content: '\27A4';
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 body header img {
