@@ -16,6 +16,11 @@ body a:hover {
   color: #111213;
 }
 
+body a:active > img {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
 body header {
   display: -ms-grid;
   display: grid;
@@ -40,11 +45,6 @@ body header div[data-title="tide"] span {
   font-size: 3vw;
   position: relative;
   top: 0.6vw;
-}
-
-body header div[data-title="tide"] a:active > img {
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
 }
 
 body header div {
@@ -127,11 +127,6 @@ body footer img {
   max-width: 4.6vw;
   -webkit-transition-duration: 0.1s;
           transition-duration: 0.1s;
-}
-
-body footer img:active {
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
 }
 
 body footer div[data-title="vk"] {

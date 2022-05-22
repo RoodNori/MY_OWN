@@ -3,7 +3,7 @@ $secondary-color: #272727;
 @mixin primary-font()
 {
     font-size: 2vw;
-    color: rgb(197, 195, 192);
+    color: #c5c3c0;
     font-family: 'Times New Roman', 'Times', serif;
 }
 @mixin secondary-font()
@@ -33,6 +33,10 @@ $secondary-color: #272727;
     {
         color: #111213;
     }
+    a:active > img
+    {
+        transform: scale(0.9);
+    }
 }
 body
 {
@@ -53,10 +57,6 @@ body
             font-size: 3vw;
             position: relative;
             top: 0.6vw;
-        }
-        > a:active > img
-        {
-            transform: scale(0.8);
         }
         input
         {
@@ -143,10 +143,6 @@ body
             width: 4.6vw;
             max-width: 4.6vw;
             transition-duration: 0.1s;
-        }
-        img:active
-        {
-            transform: scale(0.8);
         }
         div[data-title = "vk"]
         {

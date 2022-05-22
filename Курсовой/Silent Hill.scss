@@ -34,6 +34,10 @@ $secondary-color: #272727;
     {
         color: #111213;
     }
+    a:active > img
+    {
+        transform: scale(0.9);
+    }
 }
 body
 {
@@ -59,10 +63,6 @@ body
                 font-size: 3vw;
                 position: relative;
                 top: 0.6vw;
-            }
-            a:active > img
-            {
-                transform: scale(0.8);
             }
         }
         div 
@@ -132,10 +132,6 @@ body
             width: 4.9vw;
             max-width: 4.9vw;
             transition-duration: 0.1s;
-        }
-        img:active
-        {
-            transform: scale(0.8);
         }
         div[data-title = "vk"]
         {
