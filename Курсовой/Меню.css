@@ -21,9 +21,28 @@ body a:active > img {
           transform: scale(0.9);
 }
 
+body input {
+  display: none;
+}
+
+body input:checked ~ header label:after {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+body input:checked ~ aside ul {
+  -webkit-transform: translateY(3vw);
+          transform: translateY(3vw);
+}
+
 body header {
+  display: -ms-grid;
+  display: grid;
+  z-index: 1;
   width: 100%;
   height: 5vw;
+  -ms-grid-columns: 1fr 1.2fr;
+      grid-template-columns: 1fr 1.2fr;
   font-size: 2vw;
   color: #c5c3c0;
   font-family: 'Times New Roman', 'Times', serif;
@@ -32,31 +51,21 @@ body header {
   background: #272727;
 }
 
-body header span {
+body header div[data-title="tide"] {
+  margin: unset;
+}
+
+body header div[data-title="tide"] span {
   font-size: 3vw;
   position: relative;
   top: 0.6vw;
 }
 
-body header input {
-  display: none;
-}
-
-body header input:checked ~ ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-body header input:checked ~ label:after {
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+body header div {
+  margin: auto 0;
 }
 
 body header label {
-  position: relative;
-  top: 0.6vw;
-  left: 28%;
   cursor: pointer;
 }
 
@@ -75,15 +84,26 @@ body header label:after {
 
 body header img {
   float: left;
-  width: 4.8%;
-  max-width: 4.8%;
-  margin: 0 1% 0 3%;
+  width: 10.4%;
+  max-width: 10.4%;
+  margin: 0 1% 0 6%;
   -webkit-transition-duration: 0.1s;
           transition-duration: 0.1s;
 }
 
-body header ul {
-  display: none;
+body aside {
+  width: 100%;
+  font-size: 2vw;
+  color: #c5c3c0;
+  font-family: 'Times New Roman', 'Times', serif;
+  position: fixed;
+  top: 0;
+}
+
+body aside ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -92,13 +112,16 @@ body header ul {
       -ms-flex-align: center;
           align-items: center;
   list-style-type: none;
-  margin-top: 1.6%;
-  padding-left: 0;
+  padding: 0;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-transform: translateY(-7.7vw);
+          transform: translateY(-7.7vw);
 }
 
-body header ul li {
+body aside ul li {
   font-size: 3vw;
-  width: 17%;
+  width: 17.8%;
   text-align: center;
   border-bottom: #111213 solid 0.2vw;
   background: #272727;
