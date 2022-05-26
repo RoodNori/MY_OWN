@@ -31,11 +31,17 @@ $secondary-color: #272727;
     }
     a:hover
     {
-        color: #111213;
+        *:not(img)
+        {
+            opacity: 0.5;
+        }
     }
-    a:active > img
+    a:active
     {
-        transform: scale(0.9);
+        img
+        {
+            transform: scale(0.9);
+        }
     }
 }
 @mixin menu()
@@ -44,13 +50,19 @@ $secondary-color: #272727;
     {
         display: none;
     }
-    input:checked ~ header label:after
+    input:checked ~ header 
     {
-        transform: rotate(-90deg);
+        label:after
+        {
+            transform: rotate(-90deg);
+        }
     }
-    input:checked ~ aside ul
+    input:checked ~ aside
     {
-        transform: translateY(3vw);
+        ul
+        {
+            transform: translateY(3vw);
+        }
     }
 }
 body
@@ -88,10 +100,6 @@ body
         label
         {
             cursor: pointer;
-        }
-        label:active
-        {
-            color: #111213;
         }
         label:after
         {
@@ -142,6 +150,10 @@ body
         flex-wrap: wrap;
         figure
         {
+            @media (max-width: 799px)
+            {
+                flex: 0 0 60%;
+            };
             flex: 0 0 40%;
             text-align: justify;
             img

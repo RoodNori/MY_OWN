@@ -12,11 +12,11 @@ body a {
   color: #c5c3c0;
 }
 
-body a:hover {
-  color: #111213;
+body a:hover *:not(img) {
+  opacity: 0.5;
 }
 
-body a:active > img {
+body a:active img {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }

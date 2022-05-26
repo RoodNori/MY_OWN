@@ -32,11 +32,17 @@ $secondary-color: #272727;
     }
     a:hover
     {
-        color: #111213;
+        *:not(img)
+        {
+            opacity: 0.5;
+        }
     }
-    a:active > img
+    a:active
     {
-        transform: scale(0.9);
+        img
+        {
+            transform: scale(0.9);
+        }
     }
 }
 body

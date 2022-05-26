@@ -12,11 +12,11 @@ body a {
   color: #c5c3c0;
 }
 
-body a:hover {
-  color: #111213;
+body a:hover *:not(img) {
+  opacity: 0.5;
 }
 
-body a:active > img {
+body a:active img {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
@@ -67,10 +67,6 @@ body header div {
 
 body header label {
   cursor: pointer;
-}
-
-body header label:active {
-  color: #111213;
 }
 
 body header label:after {
@@ -147,6 +143,14 @@ body main figure {
       -ms-flex: 0 0 40%;
           flex: 0 0 40%;
   text-align: justify;
+}
+
+@media (max-width: 799px) {
+  body main figure {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+            flex: 0 0 60%;
+  }
 }
 
 body main figure img {
